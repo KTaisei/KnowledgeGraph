@@ -49,7 +49,7 @@ source myenv/bin/activate
 pip install -r requirements.txt
 ```
 
-Ollama 側では gemma4 を用意してください。
+Ollama 側では gemma4 を用意してください。(gemma4以外でも、`OLLAMA_MODEL`の値を変えれば利用可能ですが、軽量かつ、精度もいいのでgemma4はおすすめです。)
 
 ```bash
 ollama pull gemma4
@@ -137,11 +137,6 @@ Web 画面では、`output/graphs/` にある JSON をプルダウンで選ん�
 - `weight`
 - `description`
 
-## テスト
-
-```bash
-python -m unittest discover -s tests -q
-```
 
 ## ディレクトリ構成
 
