@@ -1,0 +1,294 @@
+{
+  "graph_id": "9f4eb854-25c6-412c-b2ed-7f01bfe83f23",
+  "topic": "暗号通信のセキュリティー技術を学びたい",
+  "created_at": "2026-07-20T04:08:01Z",
+  "updated_at": "2026-07-20T04:08:01Z",
+  "nodes": [
+    {
+      "node_id": "N1",
+      "label": "データ通信の基本構造",
+      "type": "FOUNDATIONAL",
+      "layer": 0,
+      "description": "データの流れ、パケット単位の送受信、ネットワーク層・トランスポート層の仕組みを理解する。",
+      "prerequisites": [],
+      "mastery": 0.0,
+      "hesitation_score": 0.0,
+      "cognitive_load_history": [],
+      "next_review": "2026-07-20",
+      "review_count": 0
+    },
+    {
+      "node_id": "N2",
+      "label": "攻撃者視点の思考（脅威モデル）",
+      "type": "FOUNDATIONAL",
+      "layer": 0,
+      "description": "盗聴、改ざん、なりすましといった具体的なサイバー攻撃の仕組みと前提条件を分析する。",
+      "prerequisites": [
+        "N1"
+      ],
+      "mastery": 0.0,
+      "hesitation_score": 0.0,
+      "cognitive_load_history": [],
+      "next_review": "2026-07-20",
+      "review_count": 0
+    },
+    {
+      "node_id": "N3",
+      "label": "機密性・完全性・可用性 (CIA)",
+      "type": "BASIC",
+      "layer": 1,
+      "description": "保護すべき情報の性質（閲覧制限、改ざん防止、アクセス保証）の概念を定義する。",
+      "prerequisites": [
+        "N2"
+      ],
+      "mastery": 0.0,
+      "hesitation_score": 0.0,
+      "cognitive_load_history": [],
+      "next_review": "2026-07-20",
+      "review_count": 0
+    },
+    {
+      "node_id": "N4",
+      "label": "一方向性のデータ指紋生成",
+      "type": "BASIC",
+      "layer": 1,
+      "description": "入力データを固定長の出力に圧縮し、改ざんを検出する仕組み（データの完全性）の基礎。",
+      "prerequisites": [
+        "N3"
+      ],
+      "mastery": 0.0,
+      "hesitation_score": 0.0,
+      "cognitive_load_history": [],
+      "next_review": "2026-07-20",
+      "review_count": 0
+    },
+    {
+      "node_id": "N5",
+      "label": "共通秘密を用いた高速な秘匿化",
+      "type": "BASIC",
+      "layer": 2,
+      "description": "同一の鍵でデータを暗号化・復号する仕組み。主にデータ本体（ペイロード）の保護に用いられる。",
+      "prerequisites": [
+        "N3"
+      ],
+      "mastery": 0.0,
+      "hesitation_score": 0.0,
+      "cognitive_load_history": [],
+      "next_review": "2026-07-20",
+      "review_count": 0
+    },
+    {
+      "node_id": "N6",
+      "label": "非対称鍵による安全なキー交換・秘匿化",
+      "type": "CORE",
+      "layer": 2,
+      "description": "公開鍵と秘密鍵のペアを用いて、第三者間でセキュアに通信を開始する仕組み。",
+      "prerequisites": [
+        "N3"
+      ],
+      "mastery": 0.0,
+      "hesitation_score": 0.0,
+      "cognitive_load_history": [],
+      "next_review": "2026-07-20",
+      "review_count": 0
+    },
+    {
+      "node_id": "N7",
+      "label": "送信者の真正性と非否認性の確保",
+      "type": "CORE",
+      "layer": 2,
+      "description": "秘密鍵を用いてデータに署名することで、誰がいつデータを送ったかを証明する仕組み。",
+      "prerequisites": [
+        "N6",
+        "N4"
+      ],
+      "mastery": 0.0,
+      "hesitation_score": 0.0,
+      "cognitive_load_history": [],
+      "next_review": "2026-07-20",
+      "review_count": 0
+    },
+    {
+      "node_id": "N8__MAC_HMAC",
+      "label": "データ完全性の付加的な検証",
+      "type": "CORE",
+      "layer": 2,
+      "description": "共通鍵を用いて、データが改ざんされていないことを受信側に保証する手法。",
+      "prerequisites": [
+        "N5"
+      ],
+      "mastery": 0.0,
+      "hesitation_score": 0.0,
+      "cognitive_load_history": [],
+      "next_review": "2026-07-20",
+      "review_count": 0
+    },
+    {
+      "node_id": "N9__PKI",
+      "label": "信頼できる識別子のシステム構築",
+      "type": "CORE",
+      "layer": 2,
+      "description": "暗号技術を実世界で利用するために、証明書や認証局（CA）が担う構造的な役割。",
+      "prerequisites": [
+        "N6"
+      ],
+      "mastery": 0.0,
+      "hesitation_score": 0.0,
+      "cognitive_load_history": [],
+      "next_review": "2026-07-20",
+      "review_count": 0
+    },
+    {
+      "node_id": "N10",
+      "label": "接続確立時の鍵交換プロセス理解",
+      "type": "APPLICATION",
+      "layer": 3,
+      "description": "通信開始時に、安全かつ確実に秘密の共通鍵をやり取りする手順（TLSなど）。",
+      "prerequisites": [
+        "N6",
+        "N9__PKI"
+      ],
+      "mastery": 0.0,
+      "hesitation_score": 0.0,
+      "cognitive_load_history": [],
+      "next_review": "2026-07-20",
+      "review_count": 0
+    },
+    {
+      "node_id": "N11__TLS_VPN",
+      "label": "アプリケーションへの安全な適用（データ層）",
+      "type": "APPLICATION",
+      "layer": 3,
+      "description": "Web通信やトンネリングを通じて、実際に機密性と完全性を保証する仕組みの実装。",
+      "prerequisites": [
+        "N10",
+        "N5"
+      ],
+      "mastery": 0.0,
+      "hesitation_score": 0.0,
+      "cognitive_load_history": [],
+      "next_review": "2026-07-20",
+      "review_count": 0
+    },
+    {
+      "node_id": "N12__Forward_Secrecy",
+      "label": "長期秘密鍵漏洩時の耐性確保",
+      "type": "APPLICATION",
+      "layer": 3,
+      "description": "過去の通信を傍受された際、将来的なキー漏洩から保護する高度な設計原則。",
+      "prerequisites": [
+        "N10"
+      ],
+      "mastery": 0.0,
+      "hesitation_score": 0.0,
+      "cognitive_load_history": [],
+      "next_review": "2026-07-20",
+      "review_count": 0
+    }
+  ],
+  "edges": [
+    {
+      "edge_id": "N2__N3",
+      "source_id": "N2",
+      "target_id": "N3",
+      "relationship": "定義付け",
+      "weight": 0.9,
+      "description": "脅威を理解することが、何を保護すべきかという概念の明確化につながる。"
+    },
+    {
+      "edge_id": "N3__N4",
+      "source_id": "N3",
+      "target_id": "N4",
+      "relationship": "技術的実装（完全性）",
+      "weight": 0.9,
+      "description": "「改ざん防止」（完全性）を実現するための最も基礎的なツールであるため。"
+    },
+    {
+      "edge_id": "N3__N5",
+      "source_id": "N3",
+      "target_id": "N5",
+      "relationship": "技術的実装（秘匿性）",
+      "weight": 0.8,
+      "description": "「盗聴防止」（機密性）を一般的に最も効率よく実現する方法であるため。"
+    },
+    {
+      "edge_id": "N3__N6",
+      "source_id": "N3",
+      "target_id": "N6",
+      "relationship": "技術的実装（秘匿性）",
+      "weight": 0.85,
+      "description": "対称鍵では解決できない「安全な鍵交換」を可能にするため。"
+    },
+    {
+      "edge_id": "N4__N7",
+      "source_id": "N4",
+      "target_id": "N7",
+      "relationship": "必須要素（効率化）",
+      "weight": 1.0,
+      "description": "データ全体を暗号化・署名すると非効率なため、ハッシュ関数で指紋化してから処理を行う必要がある。"
+    },
+    {
+      "edge_id": "N5__N8__MAC_HMAC",
+      "source_id": "N5",
+      "target_id": "N8__MAC_HMAC",
+      "relationship": "応用・拡張",
+      "weight": 0.9,
+      "description": "単なる秘匿化だけでなく、発信元と完全性を同時に保証するため。"
+    },
+    {
+      "edge_id": "N6__N7",
+      "source_id": "N6",
+      "target_id": "N7",
+      "relationship": "必須要素（証明）",
+      "weight": 0.95,
+      "description": "秘密鍵を持つことによる所有者特定（なりすまし防止）と、送信者の証明に不可欠であるため。"
+    },
+    {
+      "edge_id": "N6__N9__PKI",
+      "source_id": "N6",
+      "target_id": "N9__PKI",
+      "relationship": "信頼性の確立",
+      "weight": 1.0,
+      "description": "公開鍵だけでは「誰の鍵か」が分からず、その信頼性を証明するのがPKIである。"
+    },
+    {
+      "edge_id": "N9__PKI__N10",
+      "source_id": "N9__PKI",
+      "target_id": "N10",
+      "relationship": "土台となる信頼構造",
+      "weight": 1.0,
+      "description": "キー交換や認証の際に、通信相手の公開鍵が本物であることを保証するのがPKIであるため。"
+    },
+    {
+      "edge_id": "N6__N10",
+      "source_id": "N6",
+      "target_id": "N10",
+      "relationship": "直接利用する仕組み",
+      "weight": 0.95,
+      "description": "交換可能な秘密情報（共通鍵）を安全に導き出す主要な手法であるため。"
+    },
+    {
+      "edge_id": "N10__N11__TLS_VPN",
+      "source_id": "N10",
+      "target_id": "N11__TLS_VPN",
+      "relationship": "適用手順",
+      "weight": 1.0,
+      "description": "TLSなどの実際の通信は、この確立された共通鍵の知識に基づいて運用されるため。"
+    },
+    {
+      "edge_id": "N10__N12__Forward_Secrecy",
+      "source_id": "N10",
+      "target_id": "N12__Forward_Secrecy",
+      "relationship": "高度な設計目標",
+      "weight": 0.8,
+      "description": "より高いセキュリティを達成するための、ハンドシェイクの改善点として学ぶため。"
+    }
+  ],
+  "meta": {
+    "total_skills": 12,
+    "layer_0": 2,
+    "layer_1": 2,
+    "layer_2": 5,
+    "layer_3": 3
+  }
+}

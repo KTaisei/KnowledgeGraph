@@ -1,0 +1,343 @@
+{
+  "graph_id": "93a1e19d-7f92-469f-80b4-5014aacd1cf7",
+  "topic": "三角関数",
+  "created_at": "2026-07-23T15:16:48Z",
+  "updated_at": "2026-07-23T15:16:48Z",
+  "nodes": [
+    {
+      "node_id": "N01",
+      "label": "座標と距離の概念",
+      "type": "FOUNDATIONAL",
+      "layer": 0,
+      "description": "点、線、面が持つ幾何学的な構造と距離（ノルム）を定義する。",
+      "prerequisites": [],
+      "mastery": 0.0,
+      "hesitation_score": 0.0,
+      "cognitive_load_history": [],
+      "next_review": "2026-07-24",
+      "review_count": 0
+    },
+    {
+      "node_id": "N02",
+      "label": "三角比の基礎定義",
+      "type": "FOUNDATIONAL",
+      "layer": 0,
+      "description": "直角を基準とした三辺と角度の関係（三角比）から学ぶ。",
+      "prerequisites": [
+        "N01"
+      ],
+      "mastery": 0.0,
+      "hesitation_score": 0.0,
+      "cognitive_load_history": [],
+      "next_review": "2026-07-24",
+      "review_count": 0
+    },
+    {
+      "node_id": "N03",
+      "label": "周期的な角度の計測単位",
+      "type": "FOUNDATIONAL",
+      "layer": 0,
+      "description": "円周を基準とした、数学的に扱いやすい標準化された角の単位。",
+      "prerequisites": [
+        "N01"
+      ],
+      "mastery": 0.0,
+      "hesitation_score": 0.0,
+      "cognitive_load_history": [],
+      "next_review": "2026-07-24",
+      "review_count": 0
+    },
+    {
+      "node_id": "N04",
+      "label": "三角関数の平面への拡張",
+      "type": "BASIC",
+      "layer": 1,
+      "description": "角度全体を扱うため、単位円上の座標を用いて関数を定義する。",
+      "prerequisites": [
+        "N02",
+        "N03"
+      ],
+      "mastery": 0.0,
+      "hesitation_score": 0.0,
+      "cognitive_load_history": [],
+      "next_review": "2026-07-24",
+      "review_count": 0
+    },
+    {
+      "node_id": "N05",
+      "label": "実数を超える数体系の理解",
+      "type": "FOUNDATIONAL",
+      "layer": 1,
+      "description": "虚数単位 i を導入し、実数と独立した次元を持つ数系を学ぶ。",
+      "prerequisites": [
+        "N01"
+      ],
+      "mastery": 0.0,
+      "hesitation_score": 0.0,
+      "cognitive_load_history": [],
+      "next_review": "2026-07-24",
+      "review_count": 0
+    },
+    {
+      "node_id": "N06",
+      "label": "連続的な変化のモデル化",
+      "type": "BASIC",
+      "layer": 1,
+      "description": "変化率が自身に比例するという自然な成長・減衰過程を記述する。",
+      "prerequisites": [
+        "N01"
+      ],
+      "mastery": 0.0,
+      "hesitation_score": 0.0,
+      "cognitive_load_history": [],
+      "next_review": "2026-07-24",
+      "review_count": 0
+    },
+    {
+      "node_id": "N07",
+      "label": "指数関数による三角関数の表現",
+      "type": "CORE",
+      "layer": 2,
+      "description": "$e^{ix}$がサイン波とコサイン波を統合し、位相や振幅を一元的に記述する。",
+      "prerequisites": [
+        "N04",
+        "N05",
+        "N06"
+      ],
+      "mastery": 0.0,
+      "hesitation_score": 0.0,
+      "cognitive_load_history": [],
+      "next_review": "2026-07-24",
+      "review_count": 0
+    },
+    {
+      "node_id": "N08",
+      "label": "三角関数の規則的な振る舞い",
+      "type": "CORE",
+      "layer": 2,
+      "description": "サイン、コサインが持つ一定間隔での値の繰り返しと性質の理解。",
+      "prerequisites": [
+        "N04"
+      ],
+      "mastery": 0.0,
+      "hesitation_score": 0.0,
+      "cognitive_load_history": [],
+      "next_review": "2026-07-24",
+      "review_count": 0
+    },
+    {
+      "node_id": "N09",
+      "label": "三角関数の解析的な振る舞い",
+      "type": "CORE",
+      "layer": 2,
+      "description": "関数として取り扱った際の、変化率（導関数）や面積の計算方法。",
+      "prerequisites": [
+        "N04"
+      ],
+      "mastery": 0.0,
+      "hesitation_score": 0.0,
+      "cognitive_load_history": [],
+      "next_review": "2026-07-24",
+      "review_count": 0
+    },
+    {
+      "node_id": "N10",
+      "label": "周期的な物理現象のモデル化",
+      "type": "BASIC",
+      "layer": 2,
+      "description": "波（光、音）や振り子のような物体が持つ時間的・空間的な繰り返し運動。",
+      "prerequisites": [
+        "N08"
+      ],
+      "mastery": 0.0,
+      "hesitation_score": 0.0,
+      "cognitive_load_history": [],
+      "next_review": "2026-07-24",
+      "review_count": 0
+    },
+    {
+      "node_id": "N11",
+      "label": "波のエネルギー成分の特定",
+      "type": "CORE",
+      "layer": 2,
+      "description": "信号の時間変化を、振動数（Hz）と初期角度（Phase）で定量的に表現する。",
+      "prerequisites": [
+        "N10"
+      ],
+      "mastery": 0.0,
+      "hesitation_score": 0.0,
+      "cognitive_load_history": [],
+      "next_review": "2026-07-24",
+      "review_count": 0
+    },
+    {
+      "node_id": "N12",
+      "label": "周波数成分への信号分解",
+      "type": "APPLICATION",
+      "layer": 3,
+      "description": "複雑な周期的な波形を、単純なサイン・コサイン波の組み合わせに分解する技術。",
+      "prerequisites": [
+        "N08",
+        "N11"
+      ],
+      "mastery": 0.0,
+      "hesitation_score": 0.0,
+      "cognitive_load_history": [],
+      "next_review": "2026-07-24",
+      "review_count": 0
+    },
+    {
+      "node_id": "N13",
+      "label": "曲面上の三角関数的な計算",
+      "type": "APPLICATION",
+      "layer": 3,
+      "description": "地球や惑星など、湾曲した表面（単位球面）での距離や角を扱う。",
+      "prerequisites": [
+        "N02",
+        "N11"
+      ],
+      "mastery": 0.0,
+      "hesitation_score": 0.0,
+      "cognitive_load_history": [],
+      "next_review": "2026-07-24",
+      "review_count": 0
+    },
+    {
+      "node_id": "N14",
+      "label": "関係式の代数的な操作",
+      "type": "BASIC",
+      "layer": 2,
+      "description": "基本的な定理や公式を利用して、未知の変数の値を求める能力。",
+      "prerequisites": [
+        "N08",
+        "N09"
+      ],
+      "mastery": 0.0,
+      "hesitation_score": 0.0,
+      "cognitive_load_history": [],
+      "next_review": "2026-07-24",
+      "review_count": 0
+    }
+  ],
+  "edges": [
+    {
+      "edge_id": "N01__N02",
+      "source_id": "N01",
+      "target_id": "N02",
+      "relationship": "必要前提知識",
+      "weight": 1.0,
+      "description": "幾何的な位置や距離の概念がなければ、三辺の関係を定義できない。"
+    },
+    {
+      "edge_id": "N02__N03",
+      "source_id": "N02",
+      "target_id": "N03",
+      "relationship": "基礎知識構築",
+      "weight": 0.9,
+      "description": "具体的な幾何学的比率から、一般的な単位系（ラジアン）を学ぶ。"
+    },
+    {
+      "edge_id": "N03__N04",
+      "source_id": "N03",
+      "target_id": "N04",
+      "relationship": "必須の枠組み提供",
+      "weight": 1.0,
+      "description": "周期的な関数を平面全体で考えるための標準モデルとして、ラジアンと単位円が必要。"
+    },
+    {
+      "edge_id": "N04__N08",
+      "source_id": "N04",
+      "target_id": "N08",
+      "relationship": "直接的な知識源",
+      "weight": 1.0,
+      "description": "単位円上で関数を定義したからこそ、その規則的な周期性と対称性が導かれる。"
+    },
+    {
+      "edge_id": "N05__N07",
+      "source_id": "N05",
+      "target_id": "N07",
+      "relationship": "必須の数学的ツール",
+      "weight": 1.0,
+      "description": "サイン関数を指数関数で表現するには、虚数（i）という複素数の概念が不可欠。"
+    },
+    {
+      "edge_id": "N06__N07",
+      "source_id": "N06",
+      "target_id": "N07",
+      "relationship": "必須の関係性",
+      "weight": 1.0,
+      "description": "三角関数の拡張を複素平面で行う鍵となるツールが、自然対数に基づく指数関数である。"
+    },
+    {
+      "edge_id": "N04__N07",
+      "source_id": "N04",
+      "target_id": "N07",
+      "relationship": "文脈提供",
+      "weight": 0.9,
+      "description": "オイラーの公式は、角度（単位円）に基づく関数を複素数で扱う方法論である。"
+    },
+    {
+      "edge_id": "N08__N14",
+      "source_id": "N08",
+      "target_id": "N14",
+      "relationship": "基礎知識として必須",
+      "weight": 0.9,
+      "description": "基本的な性質（倍角、加法定理など）を理解していないと、恒等式の操作は不可能。"
+    },
+    {
+      "edge_id": "N04__N09",
+      "source_id": "N04",
+      "target_id": "N09",
+      "relationship": "具体的な対象物",
+      "weight": 0.8,
+      "description": "関数として扱える（単位円上で定義できる）からこそ、解析的な計算が可能になる。"
+    },
+    {
+      "edge_id": "N08__N10",
+      "source_id": "N08",
+      "target_id": "N10",
+      "relationship": "モデル化への応用",
+      "weight": 0.9,
+      "description": "関数が持つ普遍的な周期性が、自然界の振動現象（波）を記述する基盤となる。"
+    },
+    {
+      "edge_id": "N10__N11",
+      "source_id": "N10",
+      "target_id": "N11",
+      "relationship": "記述方法論",
+      "weight": 1.0,
+      "description": "単に振動するだけでなく、その成分を定量的に捉えるためには「周波数」と「位相」の概念化が必要。"
+    },
+    {
+      "edge_id": "N08__N12",
+      "source_id": "N08",
+      "target_id": "N12",
+      "relationship": "基本要素の構成要素",
+      "weight": 1.0,
+      "description": "サイン波とコサイン波が信号を分解するための最小単位（基底関数）となるため、この周期性が絶対条件。"
+    },
+    {
+      "edge_id": "N11__N12",
+      "source_id": "N11",
+      "target_id": "N12",
+      "relationship": "解析の視点付け",
+      "weight": 0.9,
+      "description": "単なる周期性ではなく、どの『振動数（成分）』がどれくらい含まれているかを分析する視点が必要。"
+    },
+    {
+      "edge_id": "N02__N13",
+      "source_id": "N02",
+      "target_id": "N13",
+      "relationship": "拡張された概念利用",
+      "weight": 0.8,
+      "description": "曲面上の三角関数的な関係（例：緯度、経度）は、平面的な三角形の定理を立体的に一般化したものだから。"
+    }
+  ],
+  "meta": {
+    "total_skills": 14,
+    "layer_0": 3,
+    "layer_1": 3,
+    "layer_2": 6,
+    "layer_3": 2
+  }
+}

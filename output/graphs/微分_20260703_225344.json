@@ -1,0 +1,338 @@
+{
+  "graph_id": "d5e52fb6-e340-46c4-8797-88076792f653",
+  "topic": "微分",
+  "created_at": "2026-07-03T13:53:44Z",
+  "updated_at": "2026-07-03T13:53:44Z",
+  "nodes": [
+    {
+      "node_id": "N1",
+      "label": "基本的な代数・実数値関数の操作",
+      "type": "FOUNDATIONAL",
+      "layer": 0,
+      "description": "変数間の関係を扱う基本的な数学的な道具。",
+      "prerequisites": [],
+      "mastery": 0.0,
+      "hesitation_score": 0.0,
+      "cognitive_load_history": [],
+      "next_review": "2026-07-03",
+      "review_count": 0
+    },
+    {
+      "node_id": "N2",
+      "label": "関数の極限と連続性の理解",
+      "type": "FOUNDATIONAL",
+      "layer": 0,
+      "description": "無限に近づく値（極限）を正確に扱うスキル。微分・積分全ての土台。",
+      "prerequisites": [
+        "N1"
+      ],
+      "mastery": 0.0,
+      "hesitation_score": 0.0,
+      "cognitive_load_history": [],
+      "next_review": "2026-07-03",
+      "review_count": 0
+    },
+    {
+      "node_id": "N3",
+      "label": "点における瞬間の変化率（傾き）の計算",
+      "type": "BASIC",
+      "layer": 1,
+      "description": "「微分の定義」を理解し、特定の点での切片の勾配を求める能力。",
+      "prerequisites": [
+        "N2",
+        "N1"
+      ],
+      "mastery": 0.0,
+      "hesitation_score": 0.0,
+      "cognitive_load_history": [],
+      "next_review": "2026-07-03",
+      "review_count": 0
+    },
+    {
+      "node_id": "N4",
+      "label": "基本定理による変化率の関係性把握",
+      "type": "BASIC",
+      "layer": 1,
+      "description": "区間全体の平均の変化率と、どこかの点での瞬間の変化率が等しいことを示す。基礎的な証明スキル。",
+      "prerequisites": [
+        "N3",
+        "N2"
+      ],
+      "mastery": 0.0,
+      "hesitation_score": 0.0,
+      "cognitive_load_history": [],
+      "next_review": "2026-07-03",
+      "review_count": 0
+    },
+    {
+      "node_id": "N5",
+      "label": "各種微分法則（合成、積）と冪級数による近似",
+      "type": "CORE",
+      "layer": 2,
+      "description": "複合的な関数や複雑な形をした関数を微分するための体系的な規則。",
+      "prerequisites": [
+        "N3",
+        "N4"
+      ],
+      "mastery": 0.0,
+      "hesitation_score": 0.0,
+      "cognitive_load_history": [],
+      "next_review": "2026-07-03",
+      "review_count": 0
+    },
+    {
+      "node_id": "N6",
+      "label": "多変数における局所的な変化率（勾配）の把握",
+      "type": "CORE",
+      "layer": 2,
+      "description": "複数の入力変数を持つ関数に対し、一つずつ独立に変化率を計算する手法。",
+      "prerequisites": [
+        "N3",
+        "N1"
+      ],
+      "mastery": 0.0,
+      "hesitation_score": 0.0,
+      "cognitive_load_history": [],
+      "next_review": "2026-07-03",
+      "review_count": 0
+    },
+    {
+      "node_id": "N7",
+      "label": "多変数関数による写像（変換）の局所的な挙動解析",
+      "type": "CORE",
+      "layer": 2,
+      "description": "複数の入力から複数の出力への関数の変化を、行列として表現し扱う。",
+      "prerequisites": [
+        "N6"
+      ],
+      "mastery": 0.0,
+      "hesitation_score": 0.0,
+      "cognitive_load_history": [],
+      "next_review": "2026-07-03",
+      "review_count": 0
+    },
+    {
+      "node_id": "N8",
+      "label": "領域にわたる累積的な量を計算する能力",
+      "type": "CORE",
+      "layer": 2,
+      "description": "平面や空間の特定領域での総和（積分の計算）を行う技術。",
+      "prerequisites": [
+        "N1"
+      ],
+      "mastery": 0.0,
+      "hesitation_score": 0.0,
+      "cognitive_load_history": [],
+      "next_review": "2026-07-03",
+      "review_count": 0
+    },
+    {
+      "node_id": "N9",
+      "label": "微分と積分が互いに逆操作であるという証明的理解",
+      "type": "CORE",
+      "layer": 2,
+      "description": "定積分を原始関数を用いて計算できるという、数学解析における最も重要な結論。",
+      "prerequisites": [
+        "N3",
+        "N8"
+      ],
+      "mastery": 0.0,
+      "hesitation_score": 0.0,
+      "cognitive_load_history": [],
+      "next_review": "2026-07-03",
+      "review_count": 0
+    },
+    {
+      "node_id": "N10",
+      "label": "関数を無限の和（冪級数）で近似表現する手法",
+      "type": "CORE",
+      "layer": 2,
+      "description": "複雑な関数の値を、既知のシンプルな形の無限級数を使って計算可能にする技術。",
+      "prerequisites": [
+        "N5"
+      ],
+      "mastery": 0.0,
+      "hesitation_score": 0.0,
+      "cognitive_load_history": [],
+      "next_review": "2026-07-03",
+      "review_count": 0
+    },
+    {
+      "node_id": "N11",
+      "label": "空間的な場の性質（流れ、密度の変化）を記述する。",
+      "type": "APPLICATION",
+      "layer": 3,
+      "description": "単なる関数ではなく「場」として扱う概念。勾配や発散など幾何学的な意味での微分を用いる。",
+      "prerequisites": [
+        "N7",
+        "N6"
+      ],
+      "mastery": 0.0,
+      "hesitation_score": 0.0,
+      "cognitive_load_history": [],
+      "next_review": "2026-07-03",
+      "review_count": 0
+    },
+    {
+      "node_id": "N12",
+      "label": "曲線や曲面上の総和（ワーク、電磁場など）を計算する。",
+      "type": "APPLICATION",
+      "layer": 3,
+      "description": "ベクトル場の循環や曲面の通過量を計算する高度な応用。定理の理解が必須。",
+      "prerequisites": [
+        "N9",
+        "N11"
+      ],
+      "mastery": 0.0,
+      "hesitation_score": 0.0,
+      "cognitive_load_history": [],
+      "next_review": "2026-07-03",
+      "review_count": 0
+    },
+    {
+      "node_id": "N13",
+      "label": "関数そのものの最小値または最大値を求める手法。",
+      "type": "APPLICATION",
+      "layer": 3,
+      "description": "微分を用いて、変数ではなく「関数」を最適化の対象とする高度な解析学スキル。",
+      "prerequisites": [
+        "N5",
+        "N2"
+      ],
+      "mastery": 0.0,
+      "hesitation_score": 0.0,
+      "cognitive_load_history": [],
+      "next_review": "2026-07-03",
+      "review_count": 0
+    }
+  ],
+  "edges": [
+    {
+      "edge_id": "N1__N3",
+      "source_id": "N1",
+      "target_id": "N3",
+      "relationship": "必須の依存",
+      "weight": 0.9,
+      "description": "微分を計算するための基本的な代数操作能力が求められる。"
+    },
+    {
+      "edge_id": "N2__N3",
+      "source_id": "N2",
+      "target_id": "N3",
+      "relationship": "必須の依存",
+      "weight": 1.0,
+      "description": "微分は、定義上「極限」を用いて瞬間的な変化率を捉えるものである。"
+    },
+    {
+      "edge_id": "N2__N4",
+      "source_id": "N2",
+      "target_id": "N4",
+      "relationship": "必須の依存",
+      "weight": 0.9,
+      "description": "平均値の振る舞いや成立条件は、極限という概念を背景に持つ。"
+    },
+    {
+      "edge_id": "N3__N4",
+      "source_id": "N3",
+      "target_id": "N4",
+      "relationship": "必須の依存",
+      "weight": 0.9,
+      "description": "特定の点での瞬間的な変化率（導関数）を理解しないと、平均値の意義が掴めない。"
+    },
+    {
+      "edge_id": "N3__N5",
+      "source_id": "N3",
+      "target_id": "N5",
+      "relationship": "必須の依存",
+      "weight": 0.8,
+      "description": "基本的な微分概念を拡張し、複雑な形に適用するためのルールの習得が必須。"
+    },
+    {
+      "edge_id": "N1__N6",
+      "source_id": "N1",
+      "target_id": "N6",
+      "relationship": "必須の依存",
+      "weight": 0.9,
+      "description": "多変数を扱う概念は、単変数関数の延長として捉えられるため。"
+    },
+    {
+      "edge_id": "N6__N7",
+      "source_id": "N6",
+      "target_id": "N7",
+      "relationship": "必須の依存",
+      "weight": 0.9,
+      "description": "多変数における局所的な変化（勾配）を座標変換として整理することが目的。"
+    },
+    {
+      "edge_id": "N3__N6",
+      "source_id": "N3",
+      "target_id": "N6",
+      "relationship": "必須の依存",
+      "weight": 0.9,
+      "description": "「点での変化率」という本質的な考え方から、多変数へ拡張される。"
+    },
+    {
+      "edge_id": "N1__N8",
+      "source_id": "N1",
+      "target_id": "N8",
+      "relationship": "必須の依存",
+      "weight": 0.9,
+      "description": "積分の概念は、面積や体積といった累積的な量を計算する基本ツールから発展する。"
+    },
+    {
+      "edge_id": "N3__N9",
+      "source_id": "N3",
+      "target_id": "N9",
+      "relationship": "必須の依存",
+      "weight": 1.0,
+      "description": "積分の結果を原始関数（微分と逆の操作）で捉えるのがこの定理の本質である。"
+    },
+    {
+      "edge_id": "N5__N10",
+      "source_id": "N5",
+      "target_id": "N10",
+      "relationship": "必須の依存",
+      "weight": 0.9,
+      "description": "関数の局所的な振る舞いを導関数を利用して多項式（＝冪級数）として近似する技術。"
+    },
+    {
+      "edge_id": "N6__N11",
+      "source_id": "N6",
+      "target_id": "N11",
+      "relationship": "必須の依存",
+      "weight": 0.9,
+      "description": "多変量関数が記述する「場」の変化を数学的に表現するために、偏微分的なアプローチが必要。"
+    },
+    {
+      "edge_id": "N9__N12",
+      "source_id": "N9",
+      "target_id": "N12",
+      "relationship": "必須の依存",
+      "weight": 0.8,
+      "description": "これらの高次な公式は、基本的な微積分の関係性（基本定理）から高度に発展した応用である。"
+    },
+    {
+      "edge_id": "N7__N12",
+      "source_id": "N7",
+      "target_id": "N12",
+      "relationship": "必須の依存",
+      "weight": 0.8,
+      "description": "曲面や曲線上の微小要素を考える際、座標変換による微分構造（ヤコビアン）が決定的に重要となる。"
+    },
+    {
+      "edge_id": "N2__N13",
+      "source_id": "N2",
+      "target_id": "N13",
+      "relationship": "必須の依存",
+      "weight": 0.9,
+      "description": "最適解は、多くの場合「変化量がゼロになる点」を求める問題（極限的な平衡状態）として定式化される。"
+    }
+  ],
+  "meta": {
+    "total_skills": 13,
+    "layer_0": 2,
+    "layer_1": 2,
+    "layer_2": 6,
+    "layer_3": 3
+  }
+}
